@@ -1,0 +1,42 @@
+#mainPanel{
+  width: fit-content; 
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#container {
+  text-align:center;
+  background: wheat;
+  padding: 1rem 0 1rem 0;
+  width: auto;
+}
+
+.tile {
+  background-color: navy;
+  width: 6.8rem;
+  color: white;
+  border: solid 0.1rem white;
+  line-height: 6.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+}
+
+.tile:hover{
+  background-color: red;
+}
+
+button{
+  padding: 0.5rem 3rem;
+  margin-top: 1rem;
+  font-size: large;
+}
+
+p{
+  font-size:large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.opened{
+  background-color: orange;
+}
